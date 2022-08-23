@@ -17,12 +17,12 @@ const LoginContainer = styled.div`
     border-radius: 4px;
     display: flex;
     height: 50%;
-    width: 40%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    max-width: 560px;
+    width: 90%;
+    max-width: 350px;
 
     label {
       position: relative;

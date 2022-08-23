@@ -5,10 +5,9 @@ const SignUpContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
-  padding: 30px;
   height: 100vh;
   width: 100vw;
+  padding-top: 100px;
   background-color: ${(props) => props.theme.bg};
   overflow-y: auto;
 
@@ -32,7 +31,7 @@ const SignUpContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    max-width: 564px;
     padding: 20px;
     gap: 10px;
     color: ${(props) => props.theme.font_color};
